@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* font-size: 96.8%; */
+
+  --primary: #f5f3f5;
+  --secondary: #121212;
+  --insight: #4cd62b;
+}
+
+@media (min-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+html,
+body,
+.root {
+  height: 100vh;
+}
+
+body,
+button {
+  font: 500 1.6rem "Ibm plex sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: var(--secondary);
+}
